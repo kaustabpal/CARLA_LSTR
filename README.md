@@ -113,7 +113,7 @@ python test.py LSTR --testiter 500000 --modality eval --split testing --debug --
 
 To evaluate on a set of images (store your images in ./images, then the detected results will be saved in ./detections):
 ```
-python test.py LSTR --testiter 500000 --modality images --image_root ./ --debug
+python test.py LSTR --testiter 400000 --modality images --image_root ./ --debug
 ```
 
 ## Citation
